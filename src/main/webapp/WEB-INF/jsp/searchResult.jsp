@@ -5,8 +5,9 @@
 <body>
 	<jsp:include page="home.jsp"></jsp:include>
 
-	<h1>Receitas Nao Encontrada</h1>
-<p>Nao<sub> Existem</sub> Receitas <sup>Para</sup>Serem<sup>Mostradas</sup></p>
-
-	<h3><p>	Nao <sub> Existem </sub> Receitas <Sub>Para</sub> Serem<sub> Mostradas</sub></p></h1>
+	<h3>Resultado da Pesquisa</h3>
+	<c:forEach var="recipe" items="${recipes}" >
+		<a href="/recipes/${recipe.externalId}">${recipe.title}</a>
+		<br /><br />
+	</c:forEach>
 </body>
