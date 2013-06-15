@@ -1,8 +1,8 @@
 # Grupo
-- 123456 David Martinho
-- 123456 David Martinho
-- 123456 David Martinho
-- 123456 David Martinho
+- 21105430 Erica Pungo
+- 21006341 João Paulo
+- 21004583 Hedylberte de Araújo
+- 21003517 Maulik Popat
 
 ## Changelog
 #### Versão 1.0:
